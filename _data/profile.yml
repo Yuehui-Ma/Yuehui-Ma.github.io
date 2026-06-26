@@ -34,7 +34,6 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: University of Chinese Academy of Sciences
-  # logo: /assets/images/badges/UCAS.png
   position: >-
     Ph.D. in Astrophysics<br/>
     Purple Mountain Observatory, Chinese Academy of Sciences
@@ -42,11 +41,9 @@ education:
 
 experience:
 - name: Research of molecular gas in the Milky Way Group, Purple Mountain Observatory, Chinese Academy of Sciences
-  # logo: /assets/images/badges/PMO.png
   position: Visiting Researcher
   date: 2025 - present
 - name: Molecular Clouds and Star Formation Group, Purple Mountain Observatory, Chinese Academy of Sciences
-  # logo: /assets/images/badges/PMO.png
   position: Special Research Assistant
   date: 2020.2 - 2024.5
 
