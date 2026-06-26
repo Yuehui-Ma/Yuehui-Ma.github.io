@@ -3,9 +3,6 @@ pages:
 - name: Home
   url: /
 
-# - name: Research
-#   url: /showcase
-
 - name: Publications
   url: /publications
 
