@@ -1,0 +1,13 @@
+pages:
+# NOTE: `name` field must match the `navbar_title` field in the page's front matter.
+- name: Home
+  url: /
+
+- name: Research
+  url: /showcase
+
+- name: Publications
+  url: /publications
+
+- name: CV
+  url: /assets/files/Yuehui_Ma_CV.pdf
