@@ -15,7 +15,7 @@ group: My Cats
     <div class="cat-kicker">My Cats</div>
     <h6>Xiaomeiqiu</h6>
     <p>
-      Quietly watching the world with bright eyes, always curious about everything happening around her.
+      Quietly watching the world with bright eyes, always curious about everything happening around him.
     </p>
   </div>
 
