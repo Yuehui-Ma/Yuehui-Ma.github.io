@@ -23,13 +23,12 @@ date: 2024-01-12 00:01:00 +0800
         This page is where I share the people, places, and moments that have shaped me —
         research groups that became family, conferences that inspired new ideas,
         books worth remembering, curious cats waiting at home,
-        and the beauty of looking up at the night sky.
+        and the beauty of looking up at the night sky, etc. 
     </p>
 
     <p>
-        I believe that good science grows not only from equations and observations,
-        but also from curiosity, kindness, collaboration, and the joy of discovering
-        something beautiful.
+        I believe that good science grows also from curiosity, kindness, collaboration, 
+        and the joy of discovering something beautiful.
     </p>
 
     <p class="welcome-signature">
@@ -45,10 +44,23 @@ date: 2024-01-12 00:01:00 +0800
     border-radius: 1.25rem;
     color: #f6fbff;
     background:
-        radial-gradient(circle at 85% 20%, rgba(149, 118, 255, 0.32), transparent 28%),
-        radial-gradient(circle at 20% 85%, rgba(62, 170, 255, 0.20), transparent 30%),
-        linear-gradient(135deg, rgba(5, 12, 30, 0.96), rgba(9, 24, 55, 0.92) 50%, rgba(30, 18, 60, 0.88));
-    box-shadow: 0 18px 45px rgba(5, 12, 30, 0.28);
+        radial-gradient(circle at 85% 15%, rgba(255, 196, 240, 0.42), transparent 24%),
+        radial-gradient(circle at 70% 75%, rgba(255, 226, 170, 0.18), transparent 32%),
+        radial-gradient(circle at 15% 80%, rgba(135, 220, 255, 0.28), transparent 36%),
+        radial-gradient(circle at 55% 45%, rgba(255, 255, 255, 0.05), transparent 45%),
+        linear-gradient(
+            135deg,
+            #243b78 0%,
+            #3959a6 25%,
+            #5e5ab4 52%,
+            #8d70c7 76%,
+            #c89ed8 100%
+        );
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    box-shadow:
+        0 20px 60px rgba(70, 90, 170, 0.22),
+        0 0 40px rgba(210, 170, 255, 0.08);
 }
 
 .welcome-card::before {
@@ -58,9 +70,9 @@ date: 2024-01-12 00:01:00 +0800
     background-image:
         radial-gradient(circle, rgba(255,255,255,0.95) 0 1px, transparent 1.5px),
         radial-gradient(circle, rgba(180,210,255,0.8) 0 1px, transparent 1.5px);
-    background-size: 72px 72px, 118px 118px;
+    background-size: 95px 95px, 165px 165px;
     background-position: 0 0, 35px 42px;
-    opacity: 0.28;
+    opacity: 0.18;
     pointer-events: none;
 }
 
@@ -88,16 +100,28 @@ date: 2024-01-12 00:01:00 +0800
     font-size: 2.35rem;
     font-weight: 800;
     letter-spacing: -0.03em;
-    background: linear-gradient(90deg, #ffffff, #8fd3ff 45%, #d9a2ff 82%);
+    background: linear-gradient(
+        90deg,
+        #ffffff,
+        #eaf8ff 18%,
+        #9ee5ff 45%,
+        #c5b4ff 72%,
+        #ffd6f4 100%
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    text-shadow:
+        0 0 8px rgba(180, 220, 255, 0.25),
+        0 0 20px rgba(255, 180, 255, 0.15);
 }
 
 .welcome-subtitle {
-    color: #b8d9ff;
+    color: #eef4ff;
     font-size: 1.03rem;
     margin-bottom: 1.2rem;
+    font-style: italic;
+    letter-spacing: 0.02em;
 }
 
 .welcome-card hr {
@@ -107,12 +131,13 @@ date: 2024-01-12 00:01:00 +0800
 .welcome-card p {
     font-size: 1.02rem;
     line-height: 1.72;
-    color: rgba(246, 251, 255, 0.92);
+    color: rgba(255, 255, 255, 0.96);
 }
 
 .welcome-signature {
     margin-top: 1.8rem;
-    color: #d8c2ff !important;
-    font-size: 1.08rem !important;
+    color: #ffe4ff !important;
+    font-size: 1.15rem !important;
+    text-shadow: 0 0 10px rgba(255, 180, 255, 0.45);
 }
 </style>
