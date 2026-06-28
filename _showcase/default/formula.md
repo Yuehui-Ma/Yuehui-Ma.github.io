@@ -8,7 +8,7 @@ date: 2017-01-14 00:01:00 +0800
 
   <div class="equation-kicker">One of the Millennium Problems</div>
 
-  <h5>The Equation Behind Chaos</h5>
+  <h5>The Equation That Keeps Me Curious</h5>
 
   <div class="equation-box">
   $$
@@ -20,7 +20,7 @@ date: 2017-01-14 00:01:00 +0800
   </div>
 
   <p class="equation-caption">
-    From a cup of coffee to hurricanes, from ocean currents to the turbulent molecular clouds of the Milky Way, the Navier–Stokes equations govern fluid motion. Yet whether smooth solutions always exist in three dimensions remains one of the seven Millennium Prize Problems—an unsolved question at the frontier of modern mathematics.
+    From a cup of coffee to hurricanes, from ocean currents to the turbulent molecular clouds of the Milky Way, the Navier–Stokes equations describe fluid motion across an astonishing range of scales. Yet whether smooth solutions always exist in three dimensions remains one of the seven Millennium Prize Problems—a question that continues to inspire mathematicians, physicists, and anyone fascinated by turbulence.
   </p>
 
 </div>
@@ -43,7 +43,7 @@ date: 2017-01-14 00:01:00 +0800
 }
 
 .equation-card::before{
-  content:"✦  Millennium  ✦";
+  content:"✦  curiosity  ✦";
   position:absolute;
   top:0.9rem;
   right:1rem;
@@ -52,11 +52,18 @@ date: 2017-01-14 00:01:00 +0800
 }
 
 .equation-kicker{
-  font-size:.76rem;
+  display:inline-block;
+  margin-bottom:.45rem;
+  padding:.32rem .72rem;
+  border-radius:999px;
+  background:rgba(255,236,178,.70);
+  border:1px solid rgba(218,166,57,.35);
+  box-shadow:0 4px 12px rgba(218,166,57,.12);
+  font-size:.72rem;
   text-transform:uppercase;
   letter-spacing:.08em;
-  color:#b57a00;
-  font-weight:700;
+  color:#9b6b00;
+  font-weight:800;
 }
 
 .equation-card h5{
@@ -66,11 +73,18 @@ date: 2017-01-14 00:01:00 +0800
 }
 
 .equation-box{
-  padding:1.1rem;
+  padding:1.25rem 1.1rem;
   border-radius:1rem;
-  background:rgba(255,255,255,.72);
-  box-shadow:0 6px 16px rgba(100,110,160,.08);
-  font-size:1.12rem;
+  background:rgba(255,255,255,.78);
+  border-left:4px solid rgba(218,166,57,.48);
+  box-shadow:0 8px 20px rgba(100,110,160,.10);
+  font-size:1.24rem;
+  transition:box-shadow .25s ease, transform .25s ease;
+}
+
+.equation-box:hover{
+  transform:translateY(-2px);
+  box-shadow:0 12px 28px rgba(100,110,160,.16);
 }
 
 .equation-caption{
