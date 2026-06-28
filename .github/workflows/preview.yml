@@ -1,0 +1,41 @@
+name: Build showcase preview
+
+on:
+  push:
+    branches:
+      - showcase-dev
+
+permissions:
+  contents: write
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout showcase-dev
+        uses: actions/checkout@v4
+        with:
+          ref: showcase-dev
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build preview site
+        run: bundle exec jekyll build --baseurl "/preview"
+
+      - name: Deploy preview into main/preview
+        run: |
+          mkdir main-site
+          git clone --branch main https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} main-site
+          rm -rf main-site/preview
+          cp -r _site main-site/preview
+          cd main-site
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add preview
+          git commit -m "Update showcase preview" || echo "No preview changes"
+          git push
