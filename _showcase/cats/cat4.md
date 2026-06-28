@@ -15,7 +15,7 @@ group: My Cats
     <div class="cat-kicker">My Cats</div>
     <h6>Rongrong</h6>
     <p>
-      Always looking at the world with bright, curious eyes, as if every ordinary moment holds a new adventure.
+      Always looking at the world with bright eyes, as if every ordinary moment holds a new adventure.
     </p>
   </div>
 
