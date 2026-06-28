@@ -1,4 +1,3 @@
-
 ---
 show: true
 width: 8
