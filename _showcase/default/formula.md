@@ -6,9 +6,9 @@ date: 2017-01-14 00:01:00 +0800
 
 <div class="equation-card">
 
-  <div class="equation-kicker">A Beautiful Equation</div>
+  <div class="equation-kicker">One of the Millennium Problems</div>
 
-  <h5>The Language of Turbulence</h5>
+  <h5>The Equation Behind Chaos</h5>
 
   <div class="equation-box">
   $$
@@ -20,7 +20,7 @@ date: 2017-01-14 00:01:00 +0800
   </div>
 
   <p class="equation-caption">
-    The Navier–Stokes equations describe the motion of fluids—from a cup of coffee to the turbulent molecular clouds of our Milky Way.
+    From a cup of coffee to hurricanes, from ocean currents to the turbulent molecular clouds of the Milky Way, the Navier–Stokes equations govern fluid motion. Yet whether smooth solutions always exist in three dimensions remains one of the seven Millennium Prize Problems—an unsolved question at the frontier of modern mathematics.
   </p>
 
 </div>
@@ -43,7 +43,7 @@ date: 2017-01-14 00:01:00 +0800
 }
 
 .equation-card::before{
-  content:"✦ ✧ ✦";
+  content:"✦  Millennium  ✦";
   position:absolute;
   top:0.9rem;
   right:1rem;
@@ -55,7 +55,7 @@ date: 2017-01-14 00:01:00 +0800
   font-size:.76rem;
   text-transform:uppercase;
   letter-spacing:.08em;
-  color:#8a84c8;
+  color:#b57a00;
   font-weight:700;
 }
 
