@@ -42,25 +42,25 @@ date: 2024-01-12 00:01:00 +0800
     overflow: hidden;
     min-height: 360px;
     border-radius: 1.25rem;
-    color: #f6fbff;
+    color: #33456b;
     background:
-        radial-gradient(circle at 85% 15%, rgba(255, 196, 240, 0.42), transparent 24%),
-        radial-gradient(circle at 70% 75%, rgba(255, 226, 170, 0.18), transparent 32%),
-        radial-gradient(circle at 15% 80%, rgba(135, 220, 255, 0.28), transparent 36%),
-        radial-gradient(circle at 55% 45%, rgba(255, 255, 255, 0.05), transparent 45%),
+        radial-gradient(circle at 88% 15%, rgba(255, 236, 178, 0.45), transparent 20%),
+        radial-gradient(circle at 72% 82%, rgba(255, 208, 245, 0.28), transparent 28%),
+        radial-gradient(circle at 18% 18%, rgba(189, 233, 255, 0.45), transparent 35%),
+        radial-gradient(circle at 55% 48%, rgba(255, 255, 255, 0.35), transparent 55%),
         linear-gradient(
             135deg,
-            #243b78 0%,
-            #3959a6 25%,
-            #5e5ab4 52%,
-            #8d70c7 76%,
-            #c89ed8 100%
+            #eef7ff 0%,
+            #dff2ff 25%,
+            #e8ecff 55%,
+            #f4e8ff 82%,
+            #fff6fb 100%
         );
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
     box-shadow:
-        0 20px 60px rgba(70, 90, 170, 0.22),
-        0 0 40px rgba(210, 170, 255, 0.08);
+        0 18px 45px rgba(130, 150, 210, 0.15),
+        0 6px 18px rgba(255, 255, 255, 0.45) inset;
 }
 
 .welcome-card::before {
@@ -68,11 +68,12 @@ date: 2024-01-12 00:01:00 +0800
     position: absolute;
     inset: 0;
     background-image:
-        radial-gradient(circle, rgba(255,255,255,0.95) 0 1px, transparent 1.5px),
-        radial-gradient(circle, rgba(180,210,255,0.8) 0 1px, transparent 1.5px);
-    background-size: 95px 95px, 165px 165px;
+        radial-gradient(circle, rgba(255, 220, 120, 0.95) 0 1px, transparent 1.8px),
+        radial-gradient(circle, rgba(255, 250, 210, 0.8) 0 1px, transparent 1.6px),
+        radial-gradient(circle, rgba(255, 255, 255, 0.6) 0 0.8px, transparent 1.4px);
+    background-size: 120px 120px, 180px 180px, 75px 75px;
     background-position: 0 0, 35px 42px;
-    opacity: 0.18;
+    opacity: 0.28;
     pointer-events: none;
 }
 
@@ -83,7 +84,7 @@ date: 2024-01-12 00:01:00 +0800
     top: -8%;
     width: 62%;
     height: 120%;
-    background: linear-gradient(120deg, transparent 0%, rgba(120, 180, 255, 0.10) 34%, rgba(210, 160, 255, 0.18) 50%, rgba(120, 180, 255, 0.08) 66%, transparent 100%);
+    background: linear-gradient(120deg, transparent 0%, rgba(255, 224, 160, 0.18) 34%, rgba(170, 210, 255, 0.20) 50%, rgba(245, 190, 255, 0.16) 66%, transparent 100%);
     transform: rotate(-16deg);
     filter: blur(0.5px);
     pointer-events: none;
@@ -102,22 +103,19 @@ date: 2024-01-12 00:01:00 +0800
     letter-spacing: -0.03em;
     background: linear-gradient(
         90deg,
-        #ffffff,
-        #eaf8ff 18%,
-        #9ee5ff 45%,
-        #c5b4ff 72%,
-        #ffd6f4 100%
+        #4d79d8,
+        #5ea7ff,
+        #8d82e8,
+        #b884dd
     );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow:
-        0 0 8px rgba(180, 220, 255, 0.25),
-        0 0 20px rgba(255, 180, 255, 0.15);
+    text-shadow: none;
 }
 
 .welcome-subtitle {
-    color: #eef4ff;
+    color: #6f7fa5;
     font-size: 1.03rem;
     margin-bottom: 1.2rem;
     font-style: italic;
@@ -125,19 +123,19 @@ date: 2024-01-12 00:01:00 +0800
 }
 
 .welcome-card hr {
-    border-color: rgba(180, 215, 255, 0.35);
+    border-color: rgba(130, 155, 210, 0.28);
 }
 
 .welcome-card p {
     font-size: 1.02rem;
     line-height: 1.72;
-    color: rgba(255, 255, 255, 0.96);
+    color: #52627d;
 }
 
 .welcome-signature {
     margin-top: 1.8rem;
-    color: #ffe4ff !important;
+    color: #7d6fd8 !important;
     font-size: 1.15rem !important;
-    text-shadow: 0 0 10px rgba(255, 180, 255, 0.45);
+    text-shadow: none;
 }
 </style>
