@@ -6,9 +6,9 @@ pages:
 - name: Publications
   url: /publications
 
-- name: Beyond Research
-  url: /showcase
-
 - name: CV
   url: /assets/files/Yuehui_Ma_CV.pdf
+
+- name: Showcase
+  url: /showcase
 
