@@ -1,6 +1,6 @@
 primary_name: "Yuehui Ma"
 secondary_name: "马月辉"
-navbar_name: "Yuehui Ma"
+navbar_name: "Every cloud has a story. Every motion leaves a trace."
 
 positions:
 - name: Visiting Researcher
@@ -34,7 +34,7 @@ portrait_url: /assets/images/photos/portrait.jpg
 
 education:
 - name: University of Chinese Academy of Sciences
-  # logo: /assets/images/badges/UCAS.png
+  logo: /assets/images/badges/UCAS.png
   position: >-
     Ph.D. in Astrophysics<br/>
     Purple Mountain Observatory, Chinese Academy of Sciences
@@ -42,15 +42,16 @@ education:
 
 experience:
 - name: Research of molecular gas in the Milky Way Group, Purple Mountain Observatory, Chinese Academy of Sciences
-  # logo: /assets/images/badges/PMO.png
+  logo: /assets/images/badges/PMO.png
   position: Visiting Researcher
   date: 2025 - present
 - name: Molecular Clouds and Star Formation Group, Purple Mountain Observatory, Chinese Academy of Sciences
-  # logo: /assets/images/badges/PMO.png
+  logo: /assets/images/badges/PMO.png
   position: Special Research Assistant
   date: 2020.2 - 2024.5
 
 - name: Changji No. 1 Middle School, Xinjiang, China
+  logo: /assets/images/badges/middle_school.png
   position: Physics Teacher (Grade 8 and Grade 10)
   date: 2010 - 2012
 
