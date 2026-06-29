@@ -18,6 +18,8 @@ date: 2021-09-12 00:01:00 +0800
       <li data-target="#groupMemoryCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#groupMemoryCarousel" data-slide-to="1"></li>
       <li data-target="#groupMemoryCarousel" data-slide-to="2"></li>
+      <li data-target="#groupMemoryCarousel" data-slide-to="3"></li>
+      <li data-target="#groupMemoryCarousel" data-slide-to="4"></li>
     </ol>
 
     <div class="carousel-inner group-memory-frame">
@@ -54,6 +56,28 @@ date: 2021-09-12 00:01:00 +0800
         <div class="group-memory-caption">
           <h6>MWISP Collaboration</h6>
           <p>Group photo at the 2024 MWISP collaboration meeting.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="{{ '/assets/images/photos/group_wang2.jpg' | relative_url }}" target="_blank">
+          <img src="{{ '/assets/images/photos/group_wang2.jpg' | relative_url }}"
+               class="d-block w-100 group-memory-image"
+               alt="Group photo with Prof. Hongchi Wang's research group">
+        </a>
+        <div class="group-memory-caption">
+          <h6>Another Memorable Day with the Group</h6>
+          <p>A treasured group photo with Prof. Hongchi Wang's research group.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <a href="{{ '/assets/images/photos/me_yue.jpg' | relative_url }}" target="_blank">
+          <img src="{{ '/assets/images/photos/me_yue.jpg' | relative_url }}"
+               class="d-block w-100 group-memory-image"
+               alt="Conference in Chiang Mai">
+        </a>
+        <div class="group-memory-caption">
+          <h6>Chiang Mai Conference</h6>
+          <p>A memorable trip to Chiang Mai with my junior colleague for an international conference.</p>
         </div>
       </div>
     </div>
