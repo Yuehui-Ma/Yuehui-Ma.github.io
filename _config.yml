@@ -32,6 +32,12 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+# Keep showcase sources for later, but do not publish the page or its collection.
+exclude:
+  - showcase.html
+  - _showcase
+  - vendor
+
 # timezone: Asia/Shanghai
 
 collections:
