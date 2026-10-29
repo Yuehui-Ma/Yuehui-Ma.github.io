@@ -36,6 +36,7 @@ plugins:
 exclude:
   - showcase.html
   - _showcase
+  - vendor
 
 # timezone: Asia/Shanghai
 
