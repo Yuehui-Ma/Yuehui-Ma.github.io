@@ -3,7 +3,7 @@ secondary_name: "马月辉"
 navbar_name: "Every cloud has a story. Every motion leaves a trace."
 
 positions:
-- name: Visiting Researcher
+- name: Visiting Scholar
 - name: Purple Mountain Observatory, Chinese Academy of Sciences, Nanjing, China
   logo: /assets/images/badges/PMO.png  # Optional: add a PMO/CAS logo later if available
 
@@ -22,7 +22,7 @@ orcid: 0000-0002-8051-5228
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am currently a Visiting Researcher at the Purple Mountain Observatory, Chinese Academy of Sciences. My research focuses on the physics of the Galactic interstellar medium, particularly the structure, dynamics, and turbulence of molecular clouds, and their role in star formation.
+    I am currently a Visiting Scholar at the Purple Mountain Observatory, Chinese Academy of Sciences. My research focuses on the physics of the Galactic interstellar medium, particularly the structure, dynamics, and turbulence of molecular clouds, and their role in star formation.
   </p>
   <p>
     My work combines large-scale CO and HI surveys, including the MWISP project, with statistical analyses of molecular cloud structure and kinematics. I am interested in turbulent cascades across multiple spatial scales, hierarchical cloud structures, scaling relations, and the interplay between turbulence, gravity, and Galactic environment. I aim to better understand how turbulence regulates the evolution of molecular clouds and the formation of stars in the Milky Way.
@@ -43,7 +43,7 @@ education:
 experience:
 - name: Research of molecular gas in the Milky Way Group, Purple Mountain Observatory, Chinese Academy of Sciences
   logo: /assets/images/badges/PMO.png
-  position: Visiting Researcher
+  position: Visiting Scholar
   date: 2025 - present
 - name: Molecular Clouds and Star Formation Group, Purple Mountain Observatory, Chinese Academy of Sciences
   logo: /assets/images/badges/PMO.png
